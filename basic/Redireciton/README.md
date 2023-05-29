@@ -1,12 +1,8 @@
 ## 0. 참고문서
 
----
-
 https://bio-info.tistory.com/87
 
 ## 1. Linux, Redirection
-
----
 
 ***Redireciton*** 은 방향을 변경한다는 의미로, Linux에서 사용하는 **표준 입력**[`stdin`] 및 **표준 출력**[`stdout`]을 키보드로 할 필요 없이 `file`로 표준 입력 값을 넣고 표준 출력 값을 `file`로 보내는 기능 입니다.
 
@@ -18,8 +14,6 @@ https://bio-info.tistory.com/87
 
 ## 2. basic usage
 
----
-
 *Linux file descriptor* [`stdin` & `stdout` & `stderr`] 와 *Redirection* 을 같이 사용할 수 있습니다.
 
 | 형태 | 뜻 |
@@ -30,8 +24,6 @@ https://bio-info.tistory.com/87
 | 명령어 1> 파일a 2>파일a | 1, 2 -> 명령 실행 시 표준 출력 값 및 표준 에러 값을 파일a에 덮어씀 |
 
 ## 3. 활용
-
----
 
 | 형태  | 뜻 |
 | --- | --- |
@@ -49,9 +41,8 @@ https://bio-info.tistory.com/87
    > 즉, 2> &1 : background로 stdout에 보내라는 의미입니다.
    > ⇒ stdout 값 + stderr ⇒ 파일
 
-## 4. 활용
+## 4. 실습
 
----
 
 - 테스트 스크립트
 

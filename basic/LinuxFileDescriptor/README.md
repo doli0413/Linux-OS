@@ -6,8 +6,6 @@ https://bio-info.tistory.com/86
 
 ## 1. 표준 입/출력 (Standard I/O)
 
----
-
 ### 1-1. 표준 입력, stdin
 
 키보드로 명령을 작성 → Enter 로 입력하는 방식을 의미. `File Descriptor 0번으로 고정`되어 있습니다.
@@ -21,8 +19,6 @@ https://bio-info.tistory.com/86
 명령을 실행 후 발생한 에러 메시지 내용을 의미, `File Descriptor 2번으로 고정`되어 있습니다.
 
 ## 2. File Descriptor
-
----
 
 `*File Descriptor*`[파일 기술자] 란, `**Linux OS 가 특정 파일에 접근할 때 사용되는 값**`.
 
