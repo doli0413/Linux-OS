@@ -1,7 +1,4 @@
 ## 0. 참고 문서
-
----
-
 https://bio-info.tistory.com/86
 
 ## 1. 표준 입/출력 (Standard I/O)
